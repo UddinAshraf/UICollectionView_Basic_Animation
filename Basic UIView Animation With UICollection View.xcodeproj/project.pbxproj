@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9068018E21AFCE7200A512A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9068018D21AFCE7200A512A9 /* AppDelegate.swift */; };
+		9068019021AFCE7200A512A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9068018F21AFCE7200A512A9 /* ViewController.swift */; };
+		9068019321AFCE7200A512A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9068019121AFCE7200A512A9 /* Main.storyboard */; };
+		9068019521AFCE7400A512A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9068019421AFCE7400A512A9 /* Assets.xcassets */; };
+		9068019821AFCE7400A512A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9068019621AFCE7400A512A9 /* LaunchScreen.storyboard */; };
+		906801A321AFCE7400A512A9 /* Basic_UIView_Animation_With_UICollection_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906801A221AFCE7400A512A9 /* Basic_UIView_Animation_With_UICollection_ViewTests.swift */; };
+		906801AE21AFCE7400A512A9 /* Basic_UIView_Animation_With_UICollection_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906801AD21AFCE7400A512A9 /* Basic_UIView_Animation_With_UICollection_ViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9068019F21AFCE7400A512A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9068018221AFCE7200A512A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9068018921AFCE7200A512A9;
+			remoteInfo = "Basic UIView Animation With UICollection View";
+		};
+		906801AA21AFCE7400A512A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9068018221AFCE7200A512A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9068018921AFCE7200A512A9;
+			remoteInfo = "Basic UIView Animation With UICollection View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9068018A21AFCE7200A512A9 /* Basic UIView Animation With UICollection View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basic UIView Animation With UICollection View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9068018D21AFCE7200A512A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9068018F21AFCE7200A512A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9068019221AFCE7200A512A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9068019421AFCE7400A512A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9068019721AFCE7400A512A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9068019921AFCE7400A512A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9068019E21AFCE7400A512A9 /* Basic UIView Animation With UICollection ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Basic UIView Animation With UICollection ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		906801A221AFCE7400A512A9 /* Basic_UIView_Animation_With_UICollection_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic_UIView_Animation_With_UICollection_ViewTests.swift; sourceTree = "<group>"; };
+		906801A421AFCE7400A512A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		906801A921AFCE7400A512A9 /* Basic UIView Animation With UICollection ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Basic UIView Animation With UICollection ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		906801AD21AFCE7400A512A9 /* Basic_UIView_Animation_With_UICollection_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic_UIView_Animation_With_UICollection_ViewUITests.swift; sourceTree = "<group>"; };
+		906801AF21AFCE7400A512A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9068018721AFCE7200A512A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9068019B21AFCE7400A512A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906801A621AFCE7400A512A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9068018121AFCE7200A512A9 = {
+			isa = PBXGroup;
+			children = (
+				9068018C21AFCE7200A512A9 /* Basic UIView Animation With UICollection View */,
+				906801A121AFCE7400A512A9 /* Basic UIView Animation With UICollection ViewTests */,
+				906801AC21AFCE7400A512A9 /* Basic UIView Animation With UICollection ViewUITests */,
+				9068018B21AFCE7200A512A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9068018B21AFCE7200A512A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9068018A21AFCE7200A512A9 /* Basic UIView Animation With UICollection View.app */,
+				9068019E21AFCE7400A512A9 /* Basic UIView Animation With UICollection ViewTests.xctest */,
+				906801A921AFCE7400A512A9 /* Basic UIView Animation With UICollection ViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9068018C21AFCE7200A512A9 /* Basic UIView Animation With UICollection View */ = {
+			isa = PBXGroup;
+			children = (
+				9068018D21AFCE7200A512A9 /* AppDelegate.swift */,
+				9068018F21AFCE7200A512A9 /* ViewController.swift */,
+				9068019121AFCE7200A512A9 /* Main.storyboard */,
+				9068019421AFCE7400A512A9 /* Assets.xcassets */,
+				9068019621AFCE7400A512A9 /* LaunchScreen.storyboard */,
+				9068019921AFCE7400A512A9 /* Info.plist */,
+			);
+			path = "Basic UIView Animation With UICollection View";
+			sourceTree = "<group>";
+		};
+		906801A121AFCE7400A512A9 /* Basic UIView Animation With UICollection ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				906801A221AFCE7400A512A9 /* Basic_UIView_Animation_With_UICollection_ViewTests.swift */,
+				906801A421AFCE7400A512A9 /* Info.plist */,
+			);
+			path = "Basic UIView Animation With UICollection ViewTests";
+			sourceTree = "<group>";
+		};
+		906801AC21AFCE7400A512A9 /* Basic UIView Animation With UICollection ViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				906801AD21AFCE7400A512A9 /* Basic_UIView_Animation_With_UICollection_ViewUITests.swift */,
+				906801AF21AFCE7400A512A9 /* Info.plist */,
+			);
+			path = "Basic UIView Animation With UICollection ViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9068018921AFCE7200A512A9 /* Basic UIView Animation With UICollection View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906801B221AFCE7400A512A9 /* Build configuration list for PBXNativeTarget "Basic UIView Animation With UICollection View" */;
+			buildPhases = (
+				9068018621AFCE7200A512A9 /* Sources */,
+				9068018721AFCE7200A512A9 /* Frameworks */,
+				9068018821AFCE7200A512A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Basic UIView Animation With UICollection View";
+			productName = "Basic UIView Animation With UICollection View";
+			productReference = 9068018A21AFCE7200A512A9 /* Basic UIView Animation With UICollection View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9068019D21AFCE7400A512A9 /* Basic UIView Animation With UICollection ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906801B521AFCE7400A512A9 /* Build configuration list for PBXNativeTarget "Basic UIView Animation With UICollection ViewTests" */;
+			buildPhases = (
+				9068019A21AFCE7400A512A9 /* Sources */,
+				9068019B21AFCE7400A512A9 /* Frameworks */,
+				9068019C21AFCE7400A512A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				906801A021AFCE7400A512A9 /* PBXTargetDependency */,
+			);
+			name = "Basic UIView Animation With UICollection ViewTests";
+			productName = "Basic UIView Animation With UICollection ViewTests";
+			productReference = 9068019E21AFCE7400A512A9 /* Basic UIView Animation With UICollection ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		906801A821AFCE7400A512A9 /* Basic UIView Animation With UICollection ViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906801B821AFCE7400A512A9 /* Build configuration list for PBXNativeTarget "Basic UIView Animation With UICollection ViewUITests" */;
+			buildPhases = (
+				906801A521AFCE7400A512A9 /* Sources */,
+				906801A621AFCE7400A512A9 /* Frameworks */,
+				906801A721AFCE7400A512A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				906801AB21AFCE7400A512A9 /* PBXTargetDependency */,
+			);
+			name = "Basic UIView Animation With UICollection ViewUITests";
+			productName = "Basic UIView Animation With UICollection ViewUITests";
+			productReference = 906801A921AFCE7400A512A9 /* Basic UIView Animation With UICollection ViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9068018221AFCE7200A512A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = BS23;
+				TargetAttributes = {
+					9068018921AFCE7200A512A9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9068019D21AFCE7400A512A9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9068018921AFCE7200A512A9;
+					};
+					906801A821AFCE7400A512A9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9068018921AFCE7200A512A9;
+					};
+				};
+			};
+			buildConfigurationList = 9068018521AFCE7200A512A9 /* Build configuration list for PBXProject "Basic UIView Animation With UICollection View" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9068018121AFCE7200A512A9;
+			productRefGroup = 9068018B21AFCE7200A512A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9068018921AFCE7200A512A9 /* Basic UIView Animation With UICollection View */,
+				9068019D21AFCE7400A512A9 /* Basic UIView Animation With UICollection ViewTests */,
+				906801A821AFCE7400A512A9 /* Basic UIView Animation With UICollection ViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9068018821AFCE7200A512A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9068019821AFCE7400A512A9 /* LaunchScreen.storyboard in Resources */,
+				9068019521AFCE7400A512A9 /* Assets.xcassets in Resources */,
+				9068019321AFCE7200A512A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9068019C21AFCE7400A512A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906801A721AFCE7400A512A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9068018621AFCE7200A512A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9068019021AFCE7200A512A9 /* ViewController.swift in Sources */,
+				9068018E21AFCE7200A512A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9068019A21AFCE7400A512A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906801A321AFCE7400A512A9 /* Basic_UIView_Animation_With_UICollection_ViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906801A521AFCE7400A512A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906801AE21AFCE7400A512A9 /* Basic_UIView_Animation_With_UICollection_ViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		906801A021AFCE7400A512A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9068018921AFCE7200A512A9 /* Basic UIView Animation With UICollection View */;
+			targetProxy = 9068019F21AFCE7400A512A9 /* PBXContainerItemProxy */;
+		};
+		906801AB21AFCE7400A512A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9068018921AFCE7200A512A9 /* Basic UIView Animation With UICollection View */;
+			targetProxy = 906801AA21AFCE7400A512A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9068019121AFCE7200A512A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9068019221AFCE7200A512A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9068019621AFCE7400A512A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9068019721AFCE7400A512A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		906801B021AFCE7400A512A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		906801B121AFCE7400A512A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		906801B321AFCE7400A512A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Basic UIView Animation With UICollection View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.bs23.Basic-UIView-Animation-With-UICollection-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		906801B421AFCE7400A512A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Basic UIView Animation With UICollection View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.bs23.Basic-UIView-Animation-With-UICollection-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		906801B621AFCE7400A512A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Basic UIView Animation With UICollection ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.bs23.Basic-UIView-Animation-With-UICollection-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basic UIView Animation With UICollection View.app/Basic UIView Animation With UICollection View";
+			};
+			name = Debug;
+		};
+		906801B721AFCE7400A512A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Basic UIView Animation With UICollection ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.bs23.Basic-UIView-Animation-With-UICollection-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basic UIView Animation With UICollection View.app/Basic UIView Animation With UICollection View";
+			};
+			name = Release;
+		};
+		906801B921AFCE7400A512A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Basic UIView Animation With UICollection ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.bs23.Basic-UIView-Animation-With-UICollection-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Basic UIView Animation With UICollection View";
+			};
+			name = Debug;
+		};
+		906801BA21AFCE7400A512A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Basic UIView Animation With UICollection ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.bs23.Basic-UIView-Animation-With-UICollection-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Basic UIView Animation With UICollection View";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9068018521AFCE7200A512A9 /* Build configuration list for PBXProject "Basic UIView Animation With UICollection View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906801B021AFCE7400A512A9 /* Debug */,
+				906801B121AFCE7400A512A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906801B221AFCE7400A512A9 /* Build configuration list for PBXNativeTarget "Basic UIView Animation With UICollection View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906801B321AFCE7400A512A9 /* Debug */,
+				906801B421AFCE7400A512A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906801B521AFCE7400A512A9 /* Build configuration list for PBXNativeTarget "Basic UIView Animation With UICollection ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906801B621AFCE7400A512A9 /* Debug */,
+				906801B721AFCE7400A512A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906801B821AFCE7400A512A9 /* Build configuration list for PBXNativeTarget "Basic UIView Animation With UICollection ViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906801B921AFCE7400A512A9 /* Debug */,
+				906801BA21AFCE7400A512A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9068018221AFCE7200A512A9 /* Project object */;
+}
