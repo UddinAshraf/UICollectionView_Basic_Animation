@@ -47,13 +47,13 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         UIView.animate(withDuration: 0.5, delay: 0.0, options: .curveEaseOut, animations: {
-            self.domainCollecetionViewLeadingConstraint.constant = 15//self.domainCollecetionView.bounds.width + 20
-            self.domainCollecetionViewTrailingConstraint.constant = 15//self.domainCollecetionView.bounds.width + 20
+            self.domainCollecetionViewLeadingConstraint.constant = 15
+            self.domainCollecetionViewTrailingConstraint.constant = 15
             self.view.layoutIfNeeded()
         }, completion: nil)
         UIView.animate(withDuration: 0.5, delay: 0.4, options: .curveEaseOut, animations: {
-            self.optionCollectionViewTopConstraint.constant = 20//self.optionCollectionView.bounds.height + 20
-            self.optionCollectionViewBottomConstraint.constant = 0//self.optionCollectionView.bounds.height + 20
+            self.optionCollectionViewTopConstraint.constant = 20
+            self.optionCollectionViewBottomConstraint.constant = 0
             self.view.layoutIfNeeded()
         }, completion: nil)
           animateOptinCollectionView()

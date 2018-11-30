@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		901E632621B1365B0051219C /* Output.gif in Resources */ = {isa = PBXBuildFile; fileRef = 901E632521B1365B0051219C /* Output.gif */; };
 		9068018E21AFCE7200A512A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9068018D21AFCE7200A512A9 /* AppDelegate.swift */; };
 		9068019021AFCE7200A512A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9068018F21AFCE7200A512A9 /* ViewController.swift */; };
 		9068019321AFCE7200A512A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9068019121AFCE7200A512A9 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		901E632521B1365B0051219C /* Output.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Output.gif; path = ../../Output.gif; sourceTree = "<group>"; };
 		9068018A21AFCE7200A512A9 /* Basic UIView Animation With UICollection View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basic UIView Animation With UICollection View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9068018D21AFCE7200A512A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9068018F21AFCE7200A512A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				906801A121AFCE7400A512A9 /* Basic UIView Animation With UICollection ViewTests */,
 				906801AC21AFCE7400A512A9 /* Basic UIView Animation With UICollection ViewUITests */,
 				9068018B21AFCE7200A512A9 /* Products */,
+				901E632521B1365B0051219C /* Output.gif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -282,6 +285,7 @@
 				9068019821AFCE7400A512A9 /* LaunchScreen.storyboard in Resources */,
 				9068019521AFCE7400A512A9 /* Assets.xcassets in Resources */,
 				9068019321AFCE7200A512A9 /* Main.storyboard in Resources */,
+				901E632621B1365B0051219C /* Output.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
